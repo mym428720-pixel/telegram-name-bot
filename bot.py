@@ -5,7 +5,7 @@ import os
 TOKEN = os.getenv("TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("👋 شغال يا وحش")
+    await update.message.reply_text("البوت شغال ✅")
 
 def main():
     app = ApplicationBuilder().token(TOKEN).build()
@@ -14,4 +14,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
